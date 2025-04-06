@@ -71,3 +71,17 @@ body {
     font-size: 18px;
   }
 }
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .card-container {
+    width: 30%;
+    height: 50%;
+  }
+  .text-container h1 {
+    font-size: 22px;
+  }
+  .text-container p {
+    font-size: 16px;
+  }
+}
